@@ -2,13 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    min-height: 80vh;
-    overflow-y: scroll;
-}
 
 nav{
     display: flex;
@@ -57,3 +53,61 @@ nav ul a:hover{
     62deg, #3a3d40 0%, #181719 100%);
 }
 
+#welcome-section h1{
+    font-size: 4rem;
+}
+
+#welcome-section p{
+    font-size: 50px;
+    color: rgb(170, 46, 46);
+    font-weight:lighter;
+}
+
+#projects{
+    width: 100%;
+    background: #45567D;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#projects h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 7rem;
+    position: relative;
+    letter-spacing: 2px;
+    margin-bottom: 5rem;
+}
+
+#projects h1::after{
+    content: "";
+    width: 850px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 190px;
+    right: 330px;
+}
+
+.pro-details{
+    margin: 1rem 0;
+    width: 450px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.603);
+}
+
+.project-img img{
+    width: 100%;
+}
+
+.pro-details .project-title{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
