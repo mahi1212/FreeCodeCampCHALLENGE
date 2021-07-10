@@ -149,3 +149,78 @@ button:hover{
     color: #fff;
     background: tomato;
 }
+
+#contact-section{
+    width: 100%;
+    height: 80vh;
+    background-color: #303841;
+}
+
+#contact-section .contact-show{
+    padding-top: 10rem;
+    text-align: center;
+}
+
+#contact-section p{
+    font-size: 2rem;
+    color: rgb(170, 46, 46);
+    font-weight:lighter;
+}
+
+#contact-section h1{
+    font-size: 4rem;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 8rem;
+}
+
+
+.contact-details a{
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.contact-details a:hover{
+    padding-top: 20px;
+    transition: all 0.5s;
+}
+
+#footer{
+    padding: 3rem 2rem;
+    border-top: 7px solid rgb(212, 105, 4);
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 30px;
+    background: rgb(2, 50, 78);
+}
+
+@media (max-width:560px) {
+    #welcome-section h1{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    #projects h1::after{
+        width: 300px;
+        height: 2px;
+        top: 1px;
+        right: 0;
+    }
+
+    #contact-section{
+        height: 500px;
+    }
+
+    .contact-details a{
+        display: none;
+    }
+        
+}
